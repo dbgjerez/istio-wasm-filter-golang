@@ -1,0 +1,4 @@
+FROM envoyproxy/envoy-dev:84efbaf7f0c1e63692945891162acc9fa755e549
+COPY envoy.yaml /etc/envoy/envoy.yaml
+COPY filter.wasm filter.wasm
+RUN chmod go+r /etc/envoy/envoy.yaml
