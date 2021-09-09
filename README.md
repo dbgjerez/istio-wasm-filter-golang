@@ -6,6 +6,15 @@ These are the tool that you need to install to start developing it. If you only 
 * IDE: a Golang IDE
 
 # Dependencies
+Tinygo can't update the dependencies when you are using Golang modules. In this case, the go.mod file indicates it. 
+
+To download the dependencies, you only have to put the following command: 
+```bash
+go mod tidy
+```
+At this point, you can start to develop and upgrade the code. 
+
+# Build
 
 
 go mod init github.com/dbgjerez/istio-wasm-filter-golang
