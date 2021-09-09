@@ -37,5 +37,8 @@ docker build -f Dockerfile.local -t b0rr3g0/wasm-go .
 ```
 Once the container building finishes, we can run it.
 
-#
-docker run -p 18000:18000 -p 38140:38140 b0rr3g0/wasm-go
+# Run
+To run the container you have to use the name indicated when it was built.
+```bash
+docker run -p 18000:18000 b0rr3g0/wasm-go
+```
