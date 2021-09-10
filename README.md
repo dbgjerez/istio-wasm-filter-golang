@@ -42,3 +42,8 @@ To run the container you have to use the name indicated when it was built.
 ```bash
 docker run -p 18000:18000 b0rr3g0/wasm-go
 ```
+
+# References
+* https://tufin.medium.com/extending-envoy-proxy-with-golang-webassembly-e51202809ba6
+* https://tinygo.org/
+* https://github.com/tetratelabs/proxy-wasm-go-sdk/
